@@ -9,5 +9,5 @@ class Post(models.Model):
     author= models.ForeignKey(User, on_delete=models.CASCADE)
     #User table is the Foreign Key of post table and if the user is deleted, posts are deleted
 
-    def __str__(self):
+    def __str__(self): #a special method that defines how an object is represented as a string.
         return self.title
