@@ -9,14 +9,14 @@ class Profile(models.Model):
     def __str__(self): #A special method that defines how an object is represented as a string.
         return f'{self.user.username} Profile'
 
-    def save(self):
-        super().save()
-        img=Image.open(self.image.path)
-        if img.height>300 or img.width>300:
+    def save(self, *args, **kwargs):  # Accept additional arguments
+        super().save(*args, **kwargs)  # Pass them to the parent save() method
+        img = Image.open(self.image.path)
+
+        if img.height > 300 or img.width > 300:
             output_size = (300, 300)
             img.thumbnail(output_size)
-            img.save(self.imgae.path)
-
+            img.save(self.image.path)
 
 
 
