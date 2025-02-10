@@ -1,0 +1,52 @@
+[
+  {
+    "title": "My Coding Journey Begins",
+    "content": "Today marks the start of my coding adventure! Ready to dive into the world of programming.",
+    "user_id": 1
+  },
+  {
+    "title": "A Quick Thought",
+    "content": "Sometimes, the smallest changes can make the biggest difference.",
+    "user_id": 2
+  },
+  {
+    "title": "Top 3 JavaScript Frameworks",
+    "content": "Exploring React, Vue, and Angular. Each has its strengths and quirks. Which one do you prefer?",
+    "user_id": 1
+  },
+  {
+    "title": "Mastering Git Commands",
+    "content": "Git is powerful but can be tricky. Learning commands like `commit`, `push`, and `rebase` has been a game-changer.",
+    "user_id": 2
+  },
+  {
+    "title": "Why Python is My Favorite Language",
+    "content": "Simple syntax, versatility, and a massive community. Python just makes coding fun and efficient!",
+    "user_id": 1
+  },
+  {
+    "title": "Is Dark Mode Better for Coding?",
+    "content": "Dark mode looks cool, but does it really reduce eye strain? Share your thoughts!",
+    "user_id": 2
+  },
+  {
+    "title": "10 Productivity Tips for Developers",
+    "content": "From keyboard shortcuts to task management apps, here are my top tips to stay productive.",
+    "user_id": 1
+  },
+  {
+    "title": "React vs Angular: My Experience",
+    "content": "Tried both for a recent project. React felt more flexible, but Angular had better structure. Depends on the use case!",
+    "user_id": 2
+  },
+  {
+    "title": "The Art of Debugging",
+    "content": "Debugging isn’t just about fixing errors; it’s about understanding the code deeply. Patience is key!",
+    "user_id": 1
+  },
+  {
+    "title": "Best Podcasts for Developers",
+    "content": "Need something to listen to while coding? Here are some tech podcasts that keep me inspired.",
+    "user_id": 2
+  }
+]
