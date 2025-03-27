@@ -81,12 +81,14 @@ WSGI_APPLICATION = 'Django_Blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',  # Ensure this is correct
+        'NAME': BASE_DIR / 'db.sqlite3',  # Ensure the file path is correct
     }
 }
+
 
 # DATABASES = {
 #     'default': {
