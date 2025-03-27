@@ -125,6 +125,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]  # Ensure static files are in this directory
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # This is where `collectstatic` will collect files
+
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
