@@ -1,0 +1,100 @@
+
+body {
+  background: #fffafe; /* Light pink background */
+  color: #6a1b9a; /* Deep purple text */
+  margin-top: 5rem;
+  font-family: 'Poppins', sans-serif; /* Stylish font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #7f153c; /* Bright pink for headers */
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #A35C7A; /*  navbar background */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffd5d4; /* Light pink on hover */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #c43665;
+}
+
+.content-section {
+  background: #fddafe; /* Light lavender pink background */
+  padding: 15px 25px;
+  border: 2px solid #c42e79; /* Hot pink border */
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(255, 105, 180, 0.2);
+}
+
+.article-title {
+  color: #52112b;
+  font-weight: bold;
+}
+
+a.article-title:hover {
+  color: #4d3596;
+  text-decoration: underline;
+}
+
+.article-content {
+  color: #000000; /* Black text color */
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border-radius: 50%; /* Make images round */
+  border: 2px solid #ff69b4;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #f48fb1;
+}
+
+.article-metadata a:hover {
+  color: #ad1457;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  fill: #ff4081;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  border: 3px solid #ff69b4;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  color: #d81b60;
+  font-style: italic;
+}
+ 

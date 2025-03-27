@@ -84,9 +84,10 @@ WSGI_APPLICATION = 'Django_Blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join('/tmp', 'db.sqlite3'),
+        'NAME': BASE_DIR / 'db.sqlite3',  # Ensure this is correct
     }
 }
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
